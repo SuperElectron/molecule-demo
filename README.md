@@ -13,8 +13,8 @@ Setup
 ```bash
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ pip install -e .
-$ pip install 'molecule[docker]'
+$ pip3 install -e .
+$ pip3 install 'molecule[docker]'
 $ molecule test
 ```
 

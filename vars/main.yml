@@ -1,2 +1,8 @@
 ---
 # vars file for molecule.example
+pkg_list:
+  - httpd
+  - firewalld
+svc_list:
+  - httpd
+  - firewalld

@@ -12,5 +12,5 @@ setup(
     author_email='matmccann@gmail.com',
     url='https://github.com/SuperElectron/molecule-demo',
     install_requires=requirements,
-    packages=find_packages(exclude=('tests'))
+    packages=find_packages()
 )
