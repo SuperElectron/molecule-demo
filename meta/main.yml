@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Matthew McCann
+  description: molecule test demo
+  company: Acro Media Inc.
+  license: GPLv3
+  min_ansible_version: 2.0
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+        - eoan
+  galaxy_tags: []
+
+dependencies: []
