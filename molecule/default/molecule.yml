@@ -31,3 +31,9 @@ scenario:
     # - side_effect
     - verify
     - destroy
+
+lint:
+  name: yamllint
+  options:
+    config-data:
+      ignore: venv

@@ -1,3 +1,23 @@
+Molecule Demo
+=========
+
+This is a demo made by following this page: https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
+
+Setup
+=========
+- check ```python --version``` and ensure that you are using python 3.
+- your commands may need to be ```python3``` or some variable where you see ```python``` below.
+- read INSTALL.rst inside /molecule
+- read the getting started guide for molecule: https://molecule.readthedocs.io/en/latest/getting-started.html
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -e .
+$ pip install 'molecule[docker]'
+$ molecule test
+```
+
 Role Name
 =========
 
